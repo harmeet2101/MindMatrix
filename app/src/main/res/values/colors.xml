@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#2090FE</color>
+
+    <color name="app_colour">#994312</color>
+
+    <color name="selected_app_colour">#bb5485c5</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#4CAF50</color>
+    <color name="green_blur">#524caf50</color>
+
+    <color name="actionbar_text_color">#FFFFFF</color>
+    <color name="actionbar_background">@color/app_colour</color>
+    <color name="submitted">#449e87</color>
+
+
+    <color name="app_light_grey">#FAFAFA</color>
+    <color name="app_dark_grey">#727272</color>
+    <color name="app_button_blue">#2090FE</color>
+
+
+    <item name="yellow" type="color">#F7B500</item>
+    <item name="yellow_dark" type="color">#AC7E00</item>
+
+
+    <color name="white_trans">#99FFFFFF</color>
+</resources>

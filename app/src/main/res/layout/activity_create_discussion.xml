@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create_discussion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cli.knowledgebase.CreateDiscussionActivity">
+
+    <include layout="@layout/toolbar"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tv_publish_discussion"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="@dimen/actionBarSize"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <widgets.MyEditText
+            android:id="@+id/et_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_quiz_broder"
+            android:hint="@string/et_hint_description_title"
+            android:maxLines="1"
+            android:padding="10dp" />
+
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView_tags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_quiz_broder"
+            android:ems="10"
+            android:hint="@string/search_tag"
+            android:padding="10dp" />
+
+        <com.adroitandroid.chipcloud.ChipCloud xmlns:chipcloud="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/chip_cloud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            chipcloud:allCaps="true"
+            chipcloud:deselectTransitionMS="500"
+            chipcloud:deselectedColor="@color/app_colour"
+            chipcloud:deselectedFontColor="@color/white"
+            chipcloud:gravity="left"
+            chipcloud:minHorizontalSpacing="5dp"
+            chipcloud:selectMode="required"
+            chipcloud:selectTransitionMS="750"
+            chipcloud:textSize="14sp"
+            chipcloud:verticalSpacing="5dp" />
+
+
+        <widgets.MyEditText
+            android:id="@+id/et_description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_quiz_broder"
+            android:gravity="top"
+            android:hint="@string/et_hint_description"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+
+    <widgets.MyTextView_bold
+        android:id="@+id/tv_publish_discussion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_quiz_buttons"
+        android:enabled="false"
+        android:padding="10dp"
+        android:text="@string/publish"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

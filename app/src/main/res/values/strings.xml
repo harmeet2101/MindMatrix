@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">Knowledge Ladder</string>
+    <string name="pick_image_gallery">Gallery</string>
+    <string name="pick_image_camera">Camera</string>
+    <string name="image_picker_title">Add Photo!</string>
+    <string name="image_picker_cancel">Cancel</string>
+    <string name="please_wait">Please Wait...</string>
+    <string name="splunk_release">91818f11</string>
+    <string name="splunk_testing">ad1b27ea</string>
+    <string name="login_text">Login</string>
+    <string name="forgot_psw">Forgot password?</string>
+    <string name="et_hint_email">Email</string>
+    <string name="et_hint_password">Password</string>
+    <string name="terms_and_conduction">I agree with Terms &amp; Conditions</string>
+    <string name="logout_alert">Are you sure you want to logout?</string>
+    <string name="quiz_timer_alert">Time Up!!!!! </string>
+    <string name="quiz_score">Your Score is %1$s </string>
+    <string name="quiz_quit_warning">You cant\'t  go back in the middle of the quiz</string>
+    <string name="text_ok">OK</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="sure">Are you Sure</string>
+    <string name="upload_warning">You want to Upload %1$s ? </string>
+
+    <!--Error messages-->
+    <string name="error_enter_email_id">Please enter Email Id</string>
+    <string name="error_email_id_not_vallid">Please enter valid Email Id</string>
+    <string name="error_enter_password">Enter Password</string>
+    <string name="error_accept_terms">Please accept terms and conditions</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="error_login_auth_failure">Login Authentication Failed</string>
+    <string name="check_network_connection">Check your Internet connection</string>
+
+    <!--Drawer menu-->
+    <string name="menu_project">Projects</string>
+    <string name="menu_subjects">Subjects</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_discussion">Discussion</string>
+    <string name="menu_blog">Blog</string>
+    <string name="menu_competition">Competition</string>
+    <string name="quiz">Quiz</string>
+    <string name="read_course_content">Read Course Content</string>
+    <string name="assignments">Assignments</string>
+    <string name="session_plan">Session Plan</string>
+    <string name="notes">Announcements / Notes</string>
+    <string name="duration">Duration : %1$s Minutes </string>
+    <string name="marks">Marks : %1$s  </string>
+    <string name="total_marks">Total Marks : %1$s  </string>
+    <string name="quiz_expires">Expires : %1$s</string>
+    <string name="score">Score : %1$s / %2$s</string>
+    <string name="created">Created : %1$s</string>
+    <string name="start">Start</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="submit">Submit and Quit</string>
+    <string name="submitted">Submitted</string>
+    <string name="submit_assignment">Submit Assignment</string>
+    <string name="expired">Expired</string>
+    <string name="title_activity_assignment">Assignment</string>
+    <string name="assignment_expires">Expires : %1$s</string>
+    <string name="filter">Filter : </string>
+    <string name="title_activity_submit_assignment">SubmitAssignment</string>
+    <string name="upload_data">Upload</string>
+    <string name="upload_assignment">Upload Assignment</string>
+    <string name="chapter">Chapters</string>
+    <string name="title_activity_session_plan">SessionPlan</string>
+    <string name="error_empty_assignment">Text field cannot be empty</string>
+    <string name="announcement">Faculty Announcement</string>
+    <string name="faculty_notes">Faculty Notes</string>
+    <string name="downloading">Downloading.....</string>
+    <string name="downloaded">File Downloaded</string>
+    <string name="votes">Votes</string>
+    <string name="discussion_topic">Topic : %1$s</string>
+    <string name="discussion_posted_date"><b>Date Posted :</b> %1$s</string>
+    <string name="discussion_posted_by"><b>By :</b> %1$s</string>
+    <string name="discussion_tags">Tags : </string>
+    <string name="search_tag">Start typing and choose from tag list</string>
+    <string name="trending_tag">Trending Tags</string>
+    <string name="submit_comments">Submit</string>
+    <string name="et_hint_comments">Write your comment</string>
+    <string name="create_discussion">Start a New Discussion</string>
+    <string name="collapse">Collapse</string>
+    <string name="clear_tags">Clear All Tags</string>
+    <string name="et_hint_description_title">Enter Title</string>
+    <string name="et_hint_description">Enter  description</string>
+    <string name="publish">Publish</string>
+    <string name="success_publish">Your post has been published , wait for admin to Approve</string>
+    <string name="blog_draft">Your blog has been Drafted</string>
+    <string name="create_blog">Create a Blog</string>
+    <string name="draft">Save Draft</string>
+    <string name="edit_post">Edit</string>
+    <string name="blog_subbmited">Submitted</string>
+    <string name="blog_rejected">Rejected</string>
+    <string name="blog_drafted">Drafted</string>
+    <string name="competition_type">Type : %1$s</string>
+    <string name="due_date">Due date : %1$s</string>
+    <string name="date_anounced">Date announced : %1$s</string>
+    <string name="for_class">Standard : %1$s</string>
+    <string name="start_or_resume">Start or Resume</string>
+    <string name="title_activity_competition_details">CompetitionDetailsActivity</string>
+    <string name="competition">Competition Details</string>
+    <string name="view_details"><u>Click for more Details</u></string>
+    <string name="create_team">Create Team</string>
+    <string name="et_hint_team_name">Team Name</string>
+    <string name="save">Save</string>
+    <string name="team_leader">Team Leader</string>
+    <string name="team_created">Created Team : </string>
+    <string name="upload_file">Upload File</string>
+    <string name="search_student">Search Teammate </string>
+    <string name="invited_on">Invited On : %1$s</string>
+    <string name="waiting">Waiting</string>
+    <string name="accepted">Accepted</string>
+    <string name="rejected">Rejected</string>
+    <string name="status">Status : %1$s</string>
+    <string name="member_exist">This member is already Invited</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="upload_file_success">File Uploaded successfully</string>
+    <string name="view_file">View File</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="upload_picture">Upload Photo</string>
+    <string name="change_password">Change Password: </string>
+    <string name="blog_approved">Approved</string>
+    <string name="et_hint_current_password">Current Password</string>
+    <string name="et_hint_new_password">New Password</string>
+    <string name="et_hint_retype_password">Re-Type Password</string>
+    <string name="change_picture">Change Password</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="error_enter_current_password">Enter currnet Password</string>
+    <string name="error_enter_new_password">Enter new password</string>
+    <string name="error_enter_retype_password">Enter Retype Password</string>
+    <string name="error_password_mismatch">Password Mismatch</string>
+    <string name="download">Download</string>
+    <string name="error_tag_exist">Tag already used</string>
+    <string name="file_not_uploaded_error">File upload pending</string>
+
+    <string name="terms_and_condition_details">iCos is available only to registered users. Violation of below terms &amp; conditions results in termination of your account:\n"
+        "1. Users will follow ethical practices while submitting any quizzes / assignments etc.\n"
+        "2. Users will not use any offensive language.\n"
+        "3. Users will not engage in any activity which would be deemed as detrimental or causing pain to others engaged on the platform.\n"
+        "4. Content (wiki/blog/descriptive question &amp; ans / poster / technical paper) uploaded by a user would be visible to other users with reference to his/her name.\n"
+        "5. Students are required to check the copyright of any content (wiki/blog/descriptive question &amp; answer/poster/technical paper/ any image). If it is used then credit should be given to the original author of the same\n"
+        "6. Plagiarism of content (Wiki/blog/Newsletter Contribution/Technical Paper) will be checked by Viper Plagiarism Scanner, Content with more than 25% plagiarism will not be accepted.\n"
+        "7. Accounts Terms:\n"
+        " User must be a human, accounts used by bots or other automated methods are not permitted\n"
+        " Login will only be used by single person- Single login shared by multiple people is not permitted.\n"
+        " You are responsible for all the contents posted and activity that occurs under your account.\n"
+        " You must not use the service for any illegal or unauthorized purpose.\n"
+        " You are responsible for maintaining the security of your account and password. CLi will not be liable for any loss or damage because of your failure to this security.\n"
+        " You must not violate any local laws prevail in your jurisdiction while using iCos.\n"
+        "8. Cancellation, Termination and Suspension of Service:\n"
+        " CLi has the right to suspend or terminate your account for any reason at any time.\n"
+        " The look and feel of the service is copyrighted. You may not duplicate copy or reuse any portion without express written permission from CLi.\n"
+        "9. User code of conduct/Ethical Practices:\n"
+        " Do not share your assignments with others unless it is explicitly told by the instructor.\n"
+        " Do not submit the work of others as yours. Respect the privacy of other users.\n"
+        " Do not attempt or involve in any potentially harmful acts that are directed against iCos.\n"
+        " You must not modify, hack the server\n"
+        " You must not upload any inappropriate images/link/content on iCos\n"
+        " Verbal, physical or written abuse of any CLi employee, customer, member will result in immediate account termination/suspension\n"
+        " You must not upload, post unsolicited “SPAM” messages\n"
+        " You must not transmit any worms or viruses or any code of destructive nature\n"
+        " We retain the right to contact you from time-to-time via Email.\n"
+        " Queries about terms &amp; conditions should be sent to: support@icos.in\n"
+        "CLi reserves the right to change the terms and conditions from time to time without notice. Any new features which enhance the current service shall be subject to terms and conditions.</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/KnowledgeBase.iml" filepath="$PROJECT_DIR$/KnowledgeBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animate_alert/animate_alert.iml" filepath="$PROJECT_DIR$/animate_alert/animate_alert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dreamandroid-knowledgebase-1ad924724afe.iml" filepath="$PROJECT_DIR$/dreamandroid-knowledgebase-1ad924724afe.iml" />
+    </modules>
+  </component>
+</project>

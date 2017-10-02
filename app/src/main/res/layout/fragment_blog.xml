@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/lay_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+        <RelativeLayout
+            android:id="@+id/rel_all_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_quiz_broder">
+
+
+            <RelativeLayout
+                android:id="@+id/rel_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_quiz_broder"
+                android:padding="5dp">
+
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/spinner"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_quiz_broder"
+                    app:ms_dropdown_height="wrap_content"
+                    app:ms_dropdown_max_height="350dp"
+                    app:ms_text_color="@color/black"
+                    app:theme="@style/alert_dialog" />
+            </RelativeLayout>
+
+
+            <widgets.MyTextView_bold
+                android:id="@+id/tv_create_blog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/bg_quiz_buttons"
+                android:padding="10dp"
+                android:text="@string/create_blog"
+                android:textColor="@color/white" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view_blog"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/rel_spinner"
+                android:nestedScrollingEnabled="false">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <ImageView
+                android:id="@+id/iv_emptyview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:src="@mipmap/empty_view" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/lay_comments_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_quiz_broder"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+            <widgets.MyTextView_bold
+                android:id="@+id/tv_collapse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/bg_quiz_buttons"
+                android:padding="10dp"
+                android:text="@string/collapse"
+                android:textColor="@color/white" />
+
+
+            <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/lay_write_comment"
+                android:layout_below="@+id/tv_collapse">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cardview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        card_view:cardCornerRadius="4dp"
+                        card_view:cardElevation="3dp"
+                        card_view:cardUseCompatPadding="true">
+
+
+                        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="0dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:orientation="vertical">
+
+
+                                <widgets.MyTextView_medium
+                                    android:id="@+id/tv_topic_heading"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:ellipsize="end"
+                                    android:paddingBottom="5dp"
+                                    android:paddingTop="5dp"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <widgets.MyTextView
+                                    android:id="@+id/tv_topic_description"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:ellipsize="end"
+                                    android:paddingBottom="5dp"
+                                    android:paddingTop="5dp"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recycler_view_comments"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="50dp"
+                        android:nestedScrollingEnabled="false">
+
+
+                    </android.support.v7.widget.RecyclerView>
+                </LinearLayout>
+
+            </ScrollView>
+
+
+            <RelativeLayout
+                android:id="@+id/lay_write_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <widgets.MyEditText
+                    android:id="@+id/et_comment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="90dp"
+                    android:background="@drawable/bg_quiz_broder"
+                    android:gravity="top"
+                    android:hint="@string/et_hint_comments"
+                    android:maxLines="5"
+                    android:minHeight="50dp"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+
+                <widgets.MyTextView_bold
+                    android:id="@+id/tv_submit_comment"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_quiz_buttons"
+                    android:enabled="false"
+                    android:padding="10dp"
+                    android:text="@string/submit_comments"
+                    android:textColor="@color/white" />
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

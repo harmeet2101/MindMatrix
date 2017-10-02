@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\Android Samples\\knowledgebase\\dreamandroid-knowledgebase-1ad924724afe\\animate_alert\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\success_bow_roate.xml",
+        "source": "F:\\Android Samples\\knowledgebase\\dreamandroid-knowledgebase-1ad924724afe\\animate_alert\\build\\intermediates\\bundles\\debug\\res\\anim\\success_bow_roate.xml"
+    },
+    {
+        "merged": "F:\\Android Samples\\knowledgebase\\dreamandroid-knowledgebase-1ad924724afe\\animate_alert\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\modal_in.xml",
+        "source": "F:\\Android Samples\\knowledgebase\\dreamandroid-knowledgebase-1ad924724afe\\animate_alert\\build\\intermediates\\bundles\\debug\\res\\anim\\modal_in.xml"
+    },
+    {
+        "merged": "F:\\Android Samples\\knowledgebase\\dreamandroid-knowledgebase-1ad924724afe\\animate_alert\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\error_frame_in.xml",
+        "source": "F:\\Android Samples\\knowledgebase\\dreamandroid-knowledgebase-1ad924724afe\\animate_alert\\build\\intermediates\\bundles\\debug\\res\\anim\\error_frame_in.xml"
+    },
+    {
+        "merged": "F:\\Android Samples\\knowledgebase\\dreamandroid-knowledgebase-1ad924724afe\\animate_alert\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\success_mask_layout.xml",
+        "source": "F:\\Android Samples\\knowledgebase\\dreamandroid-knowledgebase-1ad924724afe\\animate_alert\\build\\intermediates\\bundles\\debug\\res\\anim\\success_mask_layout.xml"
+    },
+    {
+        "merged": "F:\\Android Samples\\knowledgebase\\dreamandroid-knowledgebase-1ad924724afe\\animate_alert\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\modal_out.xml",
+        "source": "F:\\Android Samples\\knowledgebase\\dreamandroid-knowledgebase-1ad924724afe\\animate_alert\\build\\intermediates\\bundles\\debug\\res\\anim\\modal_out.xml"
+    },
+    {
+        "merged": "F:\\Android Samples\\knowledgebase\\dreamandroid-knowledgebase-1ad924724afe\\animate_alert\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\error_x_in.xml",
+        "source": "F:\\Android Samples\\knowledgebase\\dreamandroid-knowledgebase-1ad924724afe\\animate_alert\\build\\intermediates\\bundles\\debug\\res\\anim\\error_x_in.xml"
+    }
+]
